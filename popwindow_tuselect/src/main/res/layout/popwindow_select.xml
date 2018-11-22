@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_popwindow_camerapic"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="17dp"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp"
+        android:focusableInTouchMode="true" >
+
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/blue"
+            android:background="@drawable/btn_cancel_bg"
+            android:text="@string/cancel"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="9dp" >
+            <Button
+                android:id="@+id/btn_take_photo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/takephoto"
+                android:background="@drawable/btn_takephoto_bg" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fengexian"
+                android:background="#dbd4d4"/>
+
+            <Button
+                android:id="@+id/btn_from_xc"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/from_xc"
+                android:background="@drawable/btn_from_xc_bg"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
